@@ -125,3 +125,6 @@ while True:
     # More error handling for this specific try and input operation. 
     except Exception as error:
         print(f"An error occurred: {error}")
+
+# I believe if I were to keep going. I would allow for the user to search the previous bank accounts and get the information.
+# As in add another input at the end that would ask to end the program, start again, or search an account. 
