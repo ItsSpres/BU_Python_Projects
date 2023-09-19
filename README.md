@@ -1,4 +1,5 @@
 # Bellevue University Software Developer Projects
+![](https://ianspresney.com/assets/img/bellevue.jpg)
 This is Bellevue University Python projects that I completed.
 
 ## CIS 245 - Intro to Programming
