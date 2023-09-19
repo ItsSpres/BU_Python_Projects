@@ -3,7 +3,6 @@
 # This is the parent class
 class BankAccount:
 
-
     def __init__(self, accountNumber, balance):
         self.accountNumber = accountNumber
         self.balance = balance
@@ -36,16 +35,20 @@ class Checking(BankAccount):
 
     # deducting fees from the users account.
     def deductFees(self):
-        print('')
-
+        self.balance -= self.fees
+        return self.balance
+    
     # Checking if the minimum balance is met
-    # if not then we must notify the user. 
+    # If not then we must notify the user. 
     def checkMinimumBalance(self):
-        print('')
+        if self.balance < self.min_balance: 
+            print('YOUR ACCOUNT BALANCE IS LOW!')
+        else:
+            print('Balance is okay.')
 
 # Sub class for bank account 
 class Savings(BankAccount):
-    
+
     def __init__(self, accountNumber, balance, interest_rate):
         super().__init__(accountNumber, balance)
         self.interest_rate = interest_rate
