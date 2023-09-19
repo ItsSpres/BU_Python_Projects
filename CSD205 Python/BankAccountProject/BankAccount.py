@@ -103,7 +103,8 @@ while True:
         # Now we will handle the logic for subtracting fees, checking the minimum balnce, and adding interest.
         # First we need to check the account instance that we are in. 
         if isinstance(account, Checking):
-            account.deductFees()
+            new_balance_after_fees = account.deductFees()
+            print(f'Balance left after fees: ${new_balance_after_fees}')
             account.checkMinimumBalance()
         elif isinstance(account, Savings):
             interest_earned = account.addInterest()
