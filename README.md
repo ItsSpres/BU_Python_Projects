@@ -10,7 +10,7 @@ My portfolio can be found [here](https://ianspresney.com/).
 ## CSD 200 - Foundation of Software Development
 - Project: Pets-R-Us needs a feature added. Design and prototype the website.
   > Used Figma for designing and prototyping.  Please disable Figma UI for a better viewing experience. Also, use a computer.
-  > Prototype link is [here](https://www.figma.com/file/E4oJW6XtbVFpFvx74rhAk5/Pets-R-Us-Prototype?type=design&node-id=0%3A1&mode=design&t=ht28qNmws7oOVpIZ-1)
+  > Prototype link is [here](https://www.figma.com/file/E4oJW6XtbVFpFvx74rhAk5/Pets-R-Us-Prototype?type=design&node-id=0%3A1&mode=design&t=ht28qNmws7oOVpIZ-1).
 
 ![](https://ianspresney.com/assets/img/projectCSD200.svg)
 ## CSD 205 - Programming with Python
