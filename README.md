@@ -1,5 +1,5 @@
 # Bellevue University Software Developer Projects
-> __ Portfolio can be found [here](https://ianspresney.com/)
+__ Portfolio can be found [here](https://ianspresney.com/)
 
 ![](https://ianspresney.com/assets/img/BellevueMac.svg)
 ## CIS 245 - Intro to Programming
