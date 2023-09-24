@@ -1,4 +1,4 @@
-Portfolio can be found [here](https://ianspresney.com/) 
+My portfolio can be found [here](https://ianspresney.com/).
 
 # Bellevue University Software Developer Projects
 ![](https://ianspresney.com/assets/img/BellevueMac.svg)
