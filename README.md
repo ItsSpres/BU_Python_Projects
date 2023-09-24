@@ -4,7 +4,7 @@
   </p>
 </a>
 
-# Bellevue University Software Developer Projects
+# Bellevue University Projects
 <p align="center"><img src="https://ianspresney.com/assets/img/BellevueMac2.svg" alt="Example1" width="900" height="300"></p>
 
 ## Master of Science in CIS | Concentration in Software Development
