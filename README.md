@@ -1,5 +1,5 @@
 # Bellevue University Software Developer Projects
-## Portfolio can be found [here](https://ianspresney.com/)
+Portfolio can be found [here](https://ianspresney.com/)
 ![](https://ianspresney.com/assets/img/BellevueMac.svg)
 ## CIS 245 - Intro to Programming
 - [Python: Weather App](https://github.com/ItsSpres/Python-Weather-App)
