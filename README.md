@@ -1,7 +1,7 @@
 My portfolio can be found [here](https://ianspresney.com/).
 
 # Bellevue University Software Developer Projects
-![](https://ianspresney.com/assets/img/BellevueMac.svg)
+![](https://ianspresney.com/assets/img/BellevueMac2.svg)
 ## CIS 245 - Intro to Programming
 - [Python: Weather App](https://github.com/ItsSpres/Python-Weather-App)
 - [Python: Converting Miles to Kilometers](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CIS245/ConvertMilesToKm/milesToKm.py)
