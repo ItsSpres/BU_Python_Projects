@@ -38,7 +38,7 @@ while True:
         print(f"You have selected \033[4m{selectedDir}\033[0m as your file save location.")
         break # exiting loop
 
-     else: 
+    else: 
         print("An error has occured or no directory was selected.")
 
 def create_file():
