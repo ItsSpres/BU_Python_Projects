@@ -4,6 +4,7 @@
 # Sources:
 # https://www.geeksforgeeks.org/python-list-files-in-a-directory/
 # https://docs.python.org/3/library/dialog.html#:~:text=tkinter.-,filedialog%20—%20File%20selection%20dialogs,creating%20file%2Fdirectory%20selection%20windows.
+# Used old CIS 245 Project for file creation reference.
 
 # I started looking into printing all the directories to the terminal which seemed like way too much to do
 # I did it and then decided I could number all of them and then let the user select them. 
@@ -38,7 +39,6 @@ while True:
         break # exiting loop
 
      else: 
-
         print("An error has occured or no directory was selected.")
 
 def create_file():
