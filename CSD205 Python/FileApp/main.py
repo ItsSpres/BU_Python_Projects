@@ -25,6 +25,38 @@ from tkinter import filedialog
 
 while True:
 
+    # Logic for creating the file.
+    # Would be a good idea to make a validation system for making sure the file didn't use any current file names nor any chars
+    # that might throw an error. As in '/' or something along those lines.
+    def create_file():
+        try:
+            file_name = input('What do you want to name your file?: ')
+
+            # Collecting user information.
+            user_name = input('Enter your full name: ')
+            user_address = input('Enter your street address: ')
+            user_phone_number = input('Enter your phone number: ')
+
+            file = f'{file_name}.txt'
+
+            # save the file to the selected directoy...
+            save_to_path = os.path.join(selectedDir, file_name)
+
+            # Writing and creating the file.
+            with open(save_to_path, 'w') as contents: # Opening file
+                contents.write(f'{user_name}, {user_address}, {user_phone_number}') # Writing to file
+
+            # Reading and printing the file contents.
+            with open(save_to_path, 'r+') as contents:
+                print(contents.read())
+                contents.close()
+
+        except:
+            print('Failed to create file. File name may already be taken or may not be supported')
+
+
+
+
     # Making the root window with tkinter
     rt = tk.Tk()
     rt.withdraw()
@@ -35,11 +67,13 @@ while True:
     # checking that a directory was actually selected. 
     if selectedDir:
 
+        # Printing the directory we just selcted to the console.
         print(f"You have selected \033[4m{selectedDir}\033[0m as your file save location.")
-        break # exiting loop
+
+        # Time to create a file.
+        create_file()
+        break
 
     else: 
         print("An error has occured or no directory was selected.")
-
-def create_file():
-    print("hello world")
+        # Then we will loop around again.
