@@ -81,25 +81,47 @@ def main():
             # Then we will loop around again.
 
 
+
+# START
+while True: 
+    choice = input("Would you like to begin? y/n: ")
+    match choice:
+        case "y":
+            print("You selected yes...")
+            main()
+            break
+        case "n":
+            print("You selected no...")
+            break
+        case default:
+            print("error...what did you even type???")
+
+
+
+
+
+# -----------------------------------------------------
+# OLD DUMB DUMB CODE
+
 # PROGRAM START
-start = False
+# start = False
 
-# Some very very very...probably could have been simplified...logic for 
-# asking the user if they would like to begin. But hey, it works XD.
-while start == False:
+# #Some very very very...probably could have been simplified...logic for 
+# #asking the user if they would like to begin. But hey, it works XD.
+# while start == False:
 
-    yes_or_no = input('Would you like to begin? y/n: ')
-    if yes_or_no == 'y':
-        start = True
-    elif yes_or_no == 'n':
-        start = False
-    else:
-        print('not recognized...')
+#     yes_or_no = input('Would you like to begin? y/n: ')
+#     if yes_or_no == 'y':
+#         start = True
+#     elif yes_or_no == 'n':
+#         start = False
+#     else:
+#         print('not recognized...')
 
-    if start:
-        main()
-        break
-    elif start != True:
-        print('Program ended...')
-    else:
-        print('IDK what you typed, but it was wrong. So the program ended...')
+#     if start:
+#         main()
+#         break
+#     elif start != True:
+#         print('Program ended...')
+#     else:
+#         print('IDK what you typed, but it was wrong. So the program ended...')
