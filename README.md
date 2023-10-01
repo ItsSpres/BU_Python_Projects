@@ -31,8 +31,8 @@
   <p align="center"><img src="https://ianspresney.com/assets/img/Component%205.svg" alt="Example1" width="auto" height="400"></p>
 
 - Redesign a website with poor responsiveness.
-  <p align="center"><img src="https://ianspresney.com/assets/img/Component%203.svg" alt="Example1" width="auto" height="400"></p>
-  <p align="center"><img src="https://ianspresney.com/assets/img/Component%204.svg" alt="Example1" width="auto" height="400"></p>
+  <p align="center"><img src="https://ianspresney.com/assets/img/Component%203.svg" alt="Example1" width="auto" height="auto"></p>
+  <p align="center"><img src="https://ianspresney.com/assets/img/Component%204.svg" alt="Example1" width="auto" height="auto"></p>
 
 - Project: Pets-R-Us needs a feature added. Design and prototype the website.
   > Used Figma for designing and prototyping.  Please disable Figma UI for a better viewing experience. Also, use a computer.
