@@ -27,8 +27,14 @@
 - [Loops](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD205%20Python/WhileLoop/Loop.py)
 - [Tuple Project](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD205%20Python/TupleProject/tuple.py)
 #### CSD 200 - Foundation of Software Development
+- Redesign a form.
+  <p align="center"><img src="https://ianspresney.com/assets/img/Component%205.png" alt="Example1" width="auto" height="400"></p>
+
+- Redesign a website with poor responsiveness.
+  <p align="center"><img src="https://ianspresney.com/assets/img/Component%203.png" alt="Example1" width="auto" height="400"></p>
+  <p align="center"><img src="https://ianspresney.com/assets/img/Component%204.png" alt="Example1" width="auto" height="400"></p>
+
 - Project: Pets-R-Us needs a feature added. Design and prototype the website.
   > Used Figma for designing and prototyping.  Please disable Figma UI for a better viewing experience. Also, use a computer.
   > Prototype link is [here](https://www.figma.com/file/E4oJW6XtbVFpFvx74rhAk5/Pets-R-Us-Prototype?type=design&node-id=0%3A1&mode=design&t=ht28qNmws7oOVpIZ-1).
-
-![](https://ianspresney.com/assets/img/CSD200Proj.png)
+ <p align="center"><img src="https://ianspresney.com/assets/img/CSD200Proj.png" alt="Example1" width="auto" height="400"></p>
