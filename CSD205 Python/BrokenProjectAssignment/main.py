@@ -4,17 +4,18 @@
  
 # NOTE
 # Good luck!
+# If you run this in VSCode, you will figure it out pretty quick. 
  
-class Hahaha: 
+class Hahaha
 
     def __init__(self, funny): 
         self.funny = funny
 
-    def message(self): 
+    def message(self): 
         return self.funny
 
 while True: 
-    userInput = input("Say something funny: ")
+    userInput = input("Say something funny: ")
     funnyMessage = Hahaha(userInput)
  
     if userInput:
