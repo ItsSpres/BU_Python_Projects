@@ -3,9 +3,7 @@
 # 10/02/2023
  
 # NOTE
-# I am sorry to do this to you, but you are going to
-# have a hard time with this one. Unless you know this 
-# trick already. Good luck!
+# Good luck!
  
 class Hahaha: 
 
