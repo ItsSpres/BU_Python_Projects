@@ -41,7 +41,6 @@ def continueOrEnd():
         case "y":
             print("Restarting...")
             main()
-            getAndDisplayHardware()
 
         case "n":
             print("...the program has ended...")
