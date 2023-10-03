@@ -28,27 +28,26 @@ def getAndDisplayHardware():
         detail = pcHardware[selected_item]
         print(f"{selected_item} is/are: {detail}")
         continueOrEnd()
-        # getAndDisplayHardware()
     else:
         print("Sorry, that item is not in our dictionary.")
         continueOrEnd()
-        # getAndDisplayHardware()
+
 
 def continueOrEnd():
-    userInput = input("Do you wish to continue (y or n): ")
-   
-    match userInput:
-        case "y":
-            print("Restarting...")
-            main()
-
-        case "n":
-            print("...the program has ended...")
-           
-        case default:
-            print("...your input was invalid...")
-            print("Program ended...")
-            
+    userInput = input("Do you wish to search again? (y or n): ")
+    while True:
+        match userInput:
+            case "y":
+                print("Restarting...")
+                main()
+                break
+            case "n":
+                print("...the program has ended...")
+                break
+            case default:
+                print("...your input was invalid...")
+                print("Program ended...")
+                break
 
 #Program Start
 main()
