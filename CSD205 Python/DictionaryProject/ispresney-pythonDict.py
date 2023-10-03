@@ -1,4 +1,7 @@
-#Ian Spresney 
+# Ian Spresney
+# Module 6 Assignment Redo
+# 10/03/2023
+ 
 
 pcHardware = {
         "CPU": "9700K",
