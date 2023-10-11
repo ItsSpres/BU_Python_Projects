@@ -27,6 +27,9 @@
 - [Loops](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD205%20Python/WhileLoop/Loop.py)
 - [Tuple Project](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD205%20Python/TupleProject/tuple.py)
 #### CSD 200 - Foundation of Software Development
+- Bakery Design
+  <p align="center"><img src="https://ianspresney.com/assets/img/backeryProj.svg" alt="Example1" width="auto" height="auto"></p>
+
 - Redesign a form.
   <p align="center"><img src="https://ianspresney.com/assets/img/Component%205.svg" alt="Example1" width="auto" height="400"></p>
 
