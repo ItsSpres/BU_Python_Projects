@@ -11,13 +11,14 @@
 
 **`Will be starting Masters degree once Bachelors is completed in Spring of 2024.`**
 
+<br/><br/>
+## Bachelor of Science in Software Development
 #### CIS 245 - Intro to Programming
 - [Python: Weather App](https://github.com/ItsSpres/Python-Weather-App)
 - [Python: Converting Miles to Kilometers](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CIS245/ConvertMilesToKm/milesToKm.py)
 - [Python: File Creation](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CIS245/FileCreation/main.py)
 - [Python: Convert Hours to Minutes](https://github.com/ItsSpres/My_University_Projects_BU/tree/main/CIS245/HoursToMin)
-<br/><br/>
-## Bachelor of Science in Software Development
+
 #### CSD 205 - Programming with Python
 - [Creating Files](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD205%20Python/FileApp/main.py)
   > Displaying a file system and recording the directory the user wants to save to. User can then create and save the file.
