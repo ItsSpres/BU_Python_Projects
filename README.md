@@ -13,6 +13,10 @@
 
 <br/><br/>
 ## Bachelor of Science in Software Development
+#### CSD 320 - Programming with Java
+
+#### CSD 310 - Database Development and Use
+
 #### CIS 245 - Intro to Programming
 - [Python: Weather App](https://github.com/ItsSpres/Python-Weather-App)
 - [Python: Converting Miles to Kilometers](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CIS245/ConvertMilesToKm/milesToKm.py)
