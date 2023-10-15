@@ -7,11 +7,6 @@
 # Bellevue University Projects
 <p align="center"><img src="https://ianspresney.com/assets/img/BellevueMac2.svg" alt="Example1" width="900" height="300"></p>
 
-## Master of Science in CIS | Concentration in Software Development
-
-**`Will be starting Masters degree once Bachelors is completed in Spring of 2024.`**
-
-<br/><br/>
 ## Bachelor of Science in Software Development
 #### CSD 320 - Programming with Java
 
