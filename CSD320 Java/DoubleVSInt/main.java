@@ -30,9 +30,15 @@ https://www.w3schools.com/java/
 
 public class main {
     public static void main(String[] args) {
+
+      //storing variables/calculating the given numbers
       double first = 4 * ( 1.0 - 1.0 / 3.0 + 1.0 / 5.0 - 1.0 / 7.0 + 1.0 / 9.0 - 1.0 / 11.0 + 1.0 / 13.0 );
+      
+      //I don't believe this matters if it is int or double, but I left it as Int for the purpose of this assignment.
+      //Since we are wanting an integer and double for the two different results.
       int second = 4 * ( 1 - 1 / 3 + 1 / 5 - 1 / 7 + 1 / 9 - 1 / 11 + 1 / 13 );
 
+      //printing out the results of each.
       System.out.println(first); //3.2837384837384844
       System.out.println(second); //4
     }
