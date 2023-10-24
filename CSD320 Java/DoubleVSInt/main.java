@@ -28,7 +28,7 @@ https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/Do
 https://www.w3schools.com/java/
 */
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
       //storing variables/calculating the given numbers
