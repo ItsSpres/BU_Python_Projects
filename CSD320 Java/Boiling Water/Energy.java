@@ -17,7 +17,7 @@ but I will figure it out.
 
 import java.util.Scanner;
 
-public class Boil {
+public class Energy {
     public static void main(String[] args) {
         //Declaration of the user input
         //This will be reused for the rest of our input prompts
