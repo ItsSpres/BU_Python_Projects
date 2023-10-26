@@ -1,3 +1,4 @@
+package DoubleVSInt;
 /*
 Ian Spresney
 CSD320-Java
