@@ -1,0 +1,23 @@
+{
+    "users": [
+        {
+            "user_id": 123,
+            "name" : "Ian",
+            "birthdate": "1990-10-08",
+            "roles": [
+                {"role_id":1, "name": "role1"},
+                {"role_id":2, "name": "role2"}
+            ],
+            "dependents": [
+                {"id": 112, "name": "Kelly"},
+                {"id": 113, "name": "Bill"}
+            ]
+        }
+    ],
+    "all_roles": [
+        {"role_id":1, "name": "role1"},
+        {"role_id":2, "name": "role2"},
+        {"role_id":3, "name": "role3"},
+        {"role_id":4, "name": "role4"}
+    ]
+}
