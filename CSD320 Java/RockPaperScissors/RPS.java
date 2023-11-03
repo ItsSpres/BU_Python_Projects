@@ -2,7 +2,7 @@
 IAN SPRESNEY
 CSD320 - JAVA PROGRAMMING
 NOVEMBER 3, 2023
-GITHUB REPO LINK: ...
+GITHUB REPO LINK: https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/RockPaperScissors/RPS.java
 
 SOURCES: W3 and some errors handled through the use of ChatGPT.
 https://www.w3schools.com/java/
