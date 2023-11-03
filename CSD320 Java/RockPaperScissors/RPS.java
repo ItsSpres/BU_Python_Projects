@@ -3,7 +3,10 @@ IAN SPRESNEY
 CSD320 - JAVA PROGRAMMING
 NOVEMBER 3, 2023
 GITHUB REPO LINK: ...
-SOURCES: 
+
+SOURCES: W3 and some errors handled through the use of ChatGPT.
+https://www.w3schools.com/java/
+Although, this is still something I have done before. 
 
 ----PROMPT----
 Write a program that is similar to the popular game titled “Rock-Paper-Scissors.” 
