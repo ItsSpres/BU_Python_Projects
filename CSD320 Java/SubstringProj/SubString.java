@@ -3,7 +3,14 @@ Ian Spresney
 Bellevue University
 CSD320 - Java
 Substring Assignment
-Sources: W3 for minor syntax formatting, etc.
+
+Sources: W3 for minor syntax formatting, etc. 
+Used ChatGPT for cantains definition and syntax.
+Prompt used: "what is the contains mean in java"
+Result: Provided me with a clear and quick definition 
+with examples of syntax. 
+Plan: I then took this and applied it in ways I already knew such are a 
+if-then-else statement and so on. 
 
 ----PROMPT----
 Write a program that prompts a user to enter two strings and then checks the strings 
@@ -30,6 +37,10 @@ public class SubString {
         The following is pretty simple. 
         First we comparer the first string to the second and verify 
         that it is not a substring and then we continue on with comparing.
+
+        "contains" is used to see if a string has a sequence of characters that match in 
+        another string. If not then we will try the opposite comparison. If 
+        not again, then we can conclude that there is no substring.
         */
         if (numberOneString.contains(numberTwoString)) {
             System.out.println("'" + numberTwoString + "' is a substring of '" + numberOneString + "'");
