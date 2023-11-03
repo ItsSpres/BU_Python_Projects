@@ -48,6 +48,7 @@ public class Energy {
         catch(Exception e) {
                 System.out.println("An error has occurred. Try again...");
         }
+        sc.close();
     }
 
 }
