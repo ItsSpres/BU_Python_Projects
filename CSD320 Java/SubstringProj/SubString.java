@@ -32,7 +32,7 @@ public class SubString {
         that it is not a substring and then we continue on with comparing.
         */
         if (numberOneString.contains(numberTwoString)) {
-            System.out.println("'" + numberOneString + "' is a substring of '" + numberTwoString + "'");
+            System.out.println("'" + numberTwoString + "' is a substring of '" + numberTwoString + "'");
 
         } else if (numberTwoString.contains(numberOneString)) {
             System.out.println("'" + numberOneString + "' is a substring of '" + numberTwoString + "'");
