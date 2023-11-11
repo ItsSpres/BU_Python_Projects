@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "My_University_Projects_BU_7d1abfc5"
+        },
+        {
+            "type": "java",
+            "name": "RPS",
+            "request": "launch",
+            "mainClass": "RPS",
+            "projectName": "My_University_Projects_BU_7d1abfc5"
+        },
+        {
+            "type": "java",
             "name": "SubString",
             "request": "launch",
             "mainClass": "SubString",
