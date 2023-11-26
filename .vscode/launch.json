@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Password",
+            "request": "launch",
+            "mainClass": "Password",
+            "projectName": "My_University_Projects_BU_7d1abfc5"
+        },
+        {
+            "type": "java",
             "name": "SpresneyNestLoop",
             "request": "launch",
             "mainClass": "SpresneyNestLoop",
