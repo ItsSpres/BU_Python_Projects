@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraysMain",
+            "request": "launch",
+            "mainClass": "ArraysMain",
+            "projectName": "My_University_Projects_BU_7d1abfc5"
+        },
+        {
+            "type": "java",
             "name": "CostAuto",
             "request": "launch",
             "mainClass": "CostAuto",
