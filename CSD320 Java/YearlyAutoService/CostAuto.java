@@ -4,14 +4,16 @@
  Assignment Module 8
 
  Sources:
-
+This is something that I have already known how to do in other languages like C++, but here is 
+a source I referenced for some of the syntax. Also, used the course videos.
+https://www.w3schools.com/java/java_methods_overloading.asp
  */
 
 public class CostAuto {
 
-    private static final double standardServiceCharge = 100.0;
-    private static final double oilChangeFee = 30.0;
-    private static final double tireRotationCharge = 20.0;
+    private static double standardServiceCharge = 100.0;
+    private static double oilChangeFee = 30.0;
+    private static double tireRotationCharge = 20.0;
 
     // Method to calculate the yearly service cost without any additional services
     public static double yearlyService() {
@@ -38,12 +40,18 @@ public class CostAuto {
     public static void main(String[] args) {
         
         //--------------- TEST #1 -------------
-        System.out.println("Test Case 1:");
-        System.out.println("Standard Service Charge: $" + yearlyService());
+        System.out.println("---- TEST #1 ----");
+        System.out.println("Service Charge no additions: $" + yearlyService());
+        System.out.println("Service Charge with Oil Change: $" + yearlyService(150));
+        System.out.println("Service Charge with Oil Change and Tire Rotation: $" +
+                yearlyService(125, 2.01));
+        System.out.println("Service Charge with Oil Change, Tire Rotation, and Coupon Deduction: $" +
+                yearlyService(100, 1.50, 50.0));
         System.out.println();
 
         //--------------- TEST #2 -------------
-        System.out.println("Test Case 2:");
+        System.out.println("---- TEST #2 ----");
+        System.out.println("Service Charge no additions: $" + yearlyService());
         System.out.println("Service Charge with Oil Change: $" + yearlyService(oilChangeFee));
         System.out.println("Service Charge with Oil Change and Tire Rotation: $" +
                 yearlyService(oilChangeFee, tireRotationCharge));
