@@ -1,3 +1,18 @@
+-- Drop tables if they exist
+DROP TABLE IF EXISTS Registration;
+DROP TABLE IF EXISTS Customer;
+DROP TABLE IF EXISTS Trip;
+DROP TABLE IF EXISTS Guide;
+DROP TABLE IF EXISTS Airfare;
+DROP TABLE IF EXISTS Employee;
+DROP TABLE IF EXISTS Destination;
+DROP TABLE IF EXISTS Website;
+DROP TABLE IF EXISTS Marketing;
+DROP TABLE IF EXISTS Equipment;
+DROP TABLE IF EXISTS Product;
+
+
+
 -- Trip table
 CREATE TABLE Trip (
     trip_id INT AUTO_INCREMENT NOT NULL,
