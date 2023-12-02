@@ -16,7 +16,7 @@ DROP TABLE IF EXISTS Product;
 -- Trip table
 CREATE TABLE Trip (
     trip_id INT AUTO_INCREMENT NOT NULL,
-    trip_name VARCHAR(255) NOT NULL,
+    trip_name VARCHAR(100) NOT NULL,
     start_date DATE NOT NULL,
     end_date DATE NOT NULL,
     destination_id INT NOT NULL,
@@ -35,8 +35,8 @@ CREATE TABLE Trip (
 -- Guide table
 CREATE TABLE Guide (
     guide_id INT AUTO_INCREMENT NOT NULL,
-    guide_name VARCHAR(255) NOT NULL,
-    specialization VARCHAR(255) NOT NULL,
+    guide_name VARCHAR(100) NOT NULL,
+    specialization VARCHAR(100) NOT NULL,
     employee_id INT NOT NULL,
     PRIMARY KEY(guide_id),
     FOREIGN KEY (employee_id) REFERENCES Employee(employee_id)
@@ -53,8 +53,8 @@ CREATE TABLE Airfare (
 -- Employee table
 CREATE TABLE Employee (
     employee_id INT AUTO_INCREMENT NOT NULL,
-    employee_name VARCHAR(255) NOT NULL,
-    position VARCHAR(255) NOT NULL,
+    employee_name VARCHAR(100) NOT NULL,
+    position VARCHAR(100) NOT NULL,
     equipment_id INT UNIQUE,
     product_id INT UNIQUE,
     website_id INT UNIQUE,
@@ -67,15 +67,15 @@ CREATE TABLE Employee (
 -- Destination table
 CREATE TABLE Destination (
     destination_id INT AUTO_INCREMENT NOT NULL,
-    destination_name VARCHAR(255) NOT NULL,
+    destination_name VARCHAR(100) NOT NULL,
     PRIMARY KEY(destination_id)
 );
 
 -- Customer table
 CREATE TABLE Customer (
     customer_id INT AUTO_INCREMENT NOT NULL,
-    customer_name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
+    customer_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
     PRIMARY KEY(customer_id)
 );
 
@@ -92,15 +92,15 @@ CREATE TABLE Registration (
 -- Website table
 CREATE TABLE Website (
     website_id INT AUTO_INCREMENT NOT NULL,
-    website_name VARCHAR(255) NOT NULL,
-    url VARCHAR(255) NOT NULL,
+    website_name VARCHAR(100) NOT NULL,
+    url VARCHAR(100) NOT NULL,
     PRIMARY KEY(website_id)
 );
 
 -- Marketing table
 CREATE TABLE Marketing (
     marketing_id INT AUTO_INCREMENT NOT NULL,
-    strategy VARCHAR(255) NOT NULL,
+    strategy VARCHAR(100) NOT NULL,
     budget DECIMAL(10, 2) NOT NULL,
     PRIMARY KEY(marketing_id)
 );
@@ -108,7 +108,7 @@ CREATE TABLE Marketing (
 -- Equipment table
 CREATE TABLE Equipment (
     equipment_id INT AUTO_INCREMENT NOT NULL,
-    equipment_name VARCHAR(255) NOT NULL,
+    equipment_name VARCHAR(100) NOT NULL,
     quantity INT NOT NULL,
     PRIMARY KEY(equipment_id)
 );
@@ -116,7 +116,7 @@ CREATE TABLE Equipment (
 -- Product table
 CREATE TABLE Product (
     product_id INT AUTO_INCREMENT NOT NULL,
-    product_name VARCHAR(255) NOT NULL,
+    product_name VARCHAR(100) NOT NULL,
     price DECIMAL(10, 2) NOT NULL,
     PRIMARY KEY(product_id)
 );
