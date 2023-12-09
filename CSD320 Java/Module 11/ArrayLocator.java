@@ -3,6 +3,8 @@ Name: Ian Spresney
 Class: CSD320 - Module 11
 Date: 12/09/2023
 Sources:
+https://www.w3schools.com/java/java_arrays.asp
+https://www.w3schools.com/java/java_arrays_multi.asp
 
 Summary of Prompt:
 Write methods to locate the largest and smallest elements in a 2D array, 
@@ -128,7 +130,6 @@ public class ArrayLocator {
 
     // Main method for testing
     public static void main(String[] args) {
-        // Example usage:
         double[][] doubleArray = {{1.0, 2.0, 3.0}, {4.0, 5.0, 6.0}};
         int[][] intArray = {{5, 3, 2}, {8, 1, 4}};
 
