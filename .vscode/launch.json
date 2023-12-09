@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayLocator",
+            "request": "launch",
+            "mainClass": "ArrayLocator",
+            "projectName": "My_University_Projects_BU_7d1abfc5"
+        },
+        {
+            "type": "java",
             "name": "ArrayAverage",
             "request": "launch",
             "mainClass": "ArrayAverage",
