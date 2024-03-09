@@ -3,11 +3,10 @@
     <img src="https://ianspresney.com/assets/img/portButton.svg" alt="Example1" width="300" height="70">
   </p>
 </a>
-
 # Bellevue University Projects
 <p align="center"><img src="https://ianspresney.com/assets/img/BellevueMac2.svg" alt="Example1" width="900" height="300"></p>
 
-## Bachelor of Science in Software Development
+## SOFTWARE DEVELOPMENT CLASSES
 #### CSD 320 - Programming with Java
 - [Double vs Int](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/DoubleVSInt/main.java)
 - [Rock Paper Scissors](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/RockPaperScissors/RPS.java)
