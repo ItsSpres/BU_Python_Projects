@@ -12,7 +12,7 @@
 - [Double vs Int](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/DoubleVSInt/main.java)
 - [Rock Paper Scissors](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/RockPaperScissors/RPS.java)
 #### CSD 310 - Database Development and Use
-
+- [MySQL/SQL](https://github.com/ItsSpres/My_University_Projects_BU/tree/main/CSD310)
 #### CIS 245 - Intro to Programming
 - [Python: Weather App](https://github.com/ItsSpres/Python-Weather-App)
 - [Python: Converting Miles to Kilometers](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CIS245/ConvertMilesToKm/milesToKm.py)
