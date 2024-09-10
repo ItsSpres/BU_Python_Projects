@@ -1,8 +1,6 @@
 
 
 # Bellevue University Projects
-<p align="center"><img src="https://itsspres.com/assets/img/BellevueMac2.svg" alt="Example1" width="900" height="300"></p>
-
 ## SOFTWARE DEVELOPMENT CLASSES
 #### CSD 320 - Programming with Java
 - [Double vs Int](https://github.com/ItsSpres/My_University_Projects_BU/blob/main/CSD320%20Java/DoubleVSInt/main.java)
